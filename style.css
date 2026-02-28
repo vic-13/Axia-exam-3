@@ -1,0 +1,117 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  min-height: 100vh;
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+  transition: 0.3s;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+header button {
+  border-radius: 50%;
+  border: none;
+}
+
+.head-title{
+  font-weight: 500;
+}
+
+.counting-section {
+  background-color: #ffff;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.count-number, .count{
+  text-align: center;
+}
+
+.count-number{
+  font-weight: bold;
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.card{
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  padding: 5px 8px;
+  border-radius: 5px;
+  border: none;
+ background-color: #4f46ef;
+  color: white;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.loading-section{
+  background-color: #ffff;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.loading-section p{
+  margin-bottom: 20px;
+}
+
+.users-grid{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.users-card{
+  background: #eee;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.users-card p {
+  margin: 6px 0;
+}
+
+.users-card h4{
+  color: #352be4;
+}
+
+.users-card p span {
+  font-weight: bold;
+}
+
+
+.dark-theme{
+  background: #0B132B;
+  color: white;
+}
+
+.dark-theme .card {
+  background: #1E293B;
+}
+
+.dark-theme .users-card {
+  background: #08101b;
+}
+.dark-theme .btn {
+ background-color: #6366f1;
+}
+
+.dark-theme .card {
+  box-shadow: 0px 10px 3px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <p class="head-title">Student Dashboard</p>
+      <button id="toggle-button">☀️</button>
+    </header>
+
+    <section class="counting-section card">
+      <p class="count">counter</p>
+      <p id="counter" class="count-number">0</p>
+      <div class="buttons">
+        <button class="btn" id="reduce-btn">-</button>
+        <button class="btn" id="reset-btn">Reset</button>
+        <button class="btn" id="increase-btn">+</button>
+      </div>
+    </section>
+
+    <section class="loading-section card">
+      <p>Users</p>
+      <button class="btn" id="load-btn">Load-users</button>
+      <div id="users-container" class="users-grid"></div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
