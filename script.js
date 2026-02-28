@@ -1,13 +1,4 @@
-// let count = 0;
-// const updateCount = (number) => {
-//   if (count + number < 0){
-//     document.querySelector('.count-number').innerHTML = 0;
-//   }else{
-//     count += number;
-//     document.querySelector('.count-number').innerHTML = count;
-//   }
-// }
-// 
+// counter section
 let count = 0
 const counter = document.querySelector('.count-number');
 const decreaseBtn = document.getElementById('reduce-btn');
@@ -26,7 +17,7 @@ decreaseBtn.addEventListener('click', () => {
 
 increaseBtn.addEventListener('click', () => {
   count++
-  counter.textContent =count;
+  counter.textContent = count;
 });
 
 resetBtn.addEventListener('click', () => {
@@ -35,7 +26,7 @@ counter.textContent = count;
 })
 
 
-//
+// users section
 
 const usersButton = document.getElementById('load-btn');
 const usersContainer = document.getElementById('users-container');
@@ -62,6 +53,7 @@ usersButton.addEventListener("click", async () => {
 
 })
 
+// theme section
 const themeToggle = document.getElementById('toggle-button');
 themeToggle.addEventListener('click', () => {
   document.body.classList.toggle('dark-theme');
