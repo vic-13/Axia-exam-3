@@ -5,28 +5,29 @@ This project demonstrates dom manipilation, API fetching and darkmode integratio
 
 ## Features
 
-# counter
+### counter
 
--increment
--decrment
--reset
--prevent negative count
+- increment
+- decrment
+- reset
+- prevent negative count
 
-# API integration
+### API integration
 
 -Fetches user data
 dynamically displays
--name
--email
--phone
--company
 
-# theme toggle
+- name
+- email
+- phone
+- company
+
+### theme toggle
 
 -switch between light and dark mode
 
-# technologies used
+### technologies used
 
--HTML
--CSS
--JAVA SCRIPT
+- HTML
+- CSS
+- JAVA SCRIPT
